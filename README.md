@@ -22,7 +22,7 @@ Receivers' by Koch et al. 2014).  Since the C/N0 values used in plot_LWC are not
 and there are no values for the GPS above the snowpack, the output for liquid water content 
 are not correct.  If we could go to the field and collect data, we could slightly adjust this 
 project to normalize the C/N0 values and calculate the liquid water content accurately.  
-Unfortunately I didn't have the ability to do this, the liquid water content values plotted
+Unfortunately, since I didn't have the ability to do this the liquid water content values plotted
 are not correct.
 
 Author: Keenen Francois-King
