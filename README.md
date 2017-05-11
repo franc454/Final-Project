@@ -1,4 +1,5 @@
 # Final-Project
+*Compatible with Python 3*
 
 plot_LWC takes a .txt file with GPS data and returns a plot of liquid water content of
 a snowpack through time based on that GPS data.  A PDF of the plot is also saved.
