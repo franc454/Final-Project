@@ -4,8 +4,8 @@ plot_LWC takes a .txt file with GPS data and returns a plot of liquid water cont
 a snowpack through time based on that GPS data.  A PDF of the plot is also saved.
 The liquid water content (LWC) values are averaged over a certain timestep.
 
-plot_LWC calls liquid_water_content.py to convert signal strength above and below the 
-snowpack, snow depth, and elevation angle to a liquid water content value. Run plot_LWC.
+plot_LWC.py calls liquid_water_content.py to convert signal strength above and below the 
+snowpack, snow depth, and elevation angle to a liquid water content value. Run plot_LWC.py.
 
 Adjustable interval of time for averaging LWC values ('time_step') is on line 38.
 To change files, change the 'name' variable to your desired file's name.  The 'name'
