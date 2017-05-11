@@ -199,7 +199,7 @@ plottable_time = []
 for x in time:
     time_plot = dt.datetime.strptime(x, '%H:%M:%S')
     plottable_time.append(time_plot)
-print(len(plottable_time))
+print(plottable_time)
 #plot data
 fig = plt.figure(figsize = (18,5))
 ax = plt.subplot(111)
