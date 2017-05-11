@@ -1,14 +1,16 @@
 # -*- coding: utf-8 -*-
 """
-Final Project (run this file)
+Run this file.
 
 Takes a .txt file with GPS data and returns a plot of liquid water content of
-a snowpack through time based on that GPS data.  A PDF of the plot is also saved.
+a snowpack through time based on that GPS data.  Calls liquid_water_content.py 
+to convert signal strength above and below the snowpack, snow depth, and elevation 
+angle to a liquid water content value.  A PDF of the plot is also saved.
 The liquid water content (LWC) values are averaged over a certain timestep.
 
-Adjustable interval of time for averaging LWC values ('time_step') is on line 38.
+Adjustable interval of time for averaging LWC values ('time_step') is on line 40.
 To change files, change the name variable to your desired file's name.  The name
-variable is on line 32.
+variable is on line 34.
 
 The PDF of the plot will be saved under the same name as the text file being read
 but with '_SWEplotted.pdf' added.  For example, reading a file 'hour_test_1.txt' 
