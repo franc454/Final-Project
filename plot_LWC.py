@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 """
-Final Project 
+Final Project (run this file)
 
 Takes a .txt file with GPS data and returns a plot of liquid water content of
 a snowpack through time based on that GPS data.  A PDF of the plot is also saved.
