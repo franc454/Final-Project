@@ -39,7 +39,7 @@ pdf = PdfPages(name + '_SWEplotted.pdf')
 #adjust this to change how large of a timestep of SWE vals is averaged.
 time_step = 100 #[sec]
 
-text = f.readlines()
+text = f.readlines()[1:]
 
 #We don't have GPS readings above snowpack or snowpack depth.  Eventually we will 
 #and can use the readings in the txt files from that GPS and the depth sensor to solve 
@@ -199,7 +199,7 @@ plottable_time = []
 for x in time:
     time_plot = dt.datetime.strptime(x, '%H:%M:%S')
     plottable_time.append(time_plot)
-print(plottable_time)
+
 #plot data
 fig = plt.figure(figsize = (18,5))
 ax = plt.subplot(111)
