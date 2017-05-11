@@ -15,4 +15,12 @@ The PDF of the plot will be saved under the same name as the text file being rea
 but with '_SWEplotted.pdf' added.  For example, reading a file 'hour_test_1.txt' 
 will save a PDF titled 'hour_test_1_SWEplotted.pdf.'
 
+C/N0 values collected from the GPS need to be converted to SNR.  They are converted in lines
+85 and 86.  Though they are converted, they still need to be normalized to values on a snow
+free day (Refer to Section 3.2 in 'Measuring Snow Liquid Water Content with Low-Cost GPS 
+Receivers' by Koch et al. 2014).  Since the values used in plot_LWC are not normalized and 
+there are no values for the GPS above the snowpack, the output for liquid water content are 
+not correct.  If we could go to the field and collect data, we could slightly adjust this 
+project to normalize the C/N0 values and calculate the liquid water content accurately.  
+
 Author: Keenen Francois-King
